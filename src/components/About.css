@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.about-img img:nth-child(2){
+    height: 380px;
+    width: 550px;
+}
+.gif{
+    position:absolute;
+  top: -30px;
+left: 0px;
+  
+width: 200px;
+height: 200px;
+}
+.about-us{
+    background-color: #d1f8f9;  
+}
+.about-img{
+    position: relative;
+}
+.about-text p{
+    line-height:30px;
+    text-align: justify;   
+}
+h3{
+    color: #1dbfc1; ;
+}
+@media screen and (max-width:400px){
+    
+}
+
+
+
+
+

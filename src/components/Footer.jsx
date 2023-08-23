@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer(){
     return(
         <div className='Footer'>
-            <footer>
+            <footer className='pt-5'>
 
                 {/* for large screen */}
                 <div className="container-lg d-none d-sm-none d-md-block d-lg-block">

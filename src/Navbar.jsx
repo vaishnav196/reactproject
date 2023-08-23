@@ -10,12 +10,12 @@ function Navbar() {
   
     <div className="Navbar">
   <header>
-    <div className="container-fluid-lg">
+    <div className="container-lg">
       <div className="row">
         <div className="col">
         <nav class="navbar  navbar-expand-lg  justify-content-center ">
   <div class="container-lg">
-    <div class="navbar-brand " href="#"><img src="img/logo.png" alt="" className="img-fluid " /></div>
+    <div class="navbar-brand" href="#"><img src="img/logo.png" alt="" className="img-fluid" /></div>
     <div class=" navbar-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="fas fa-bars " ></span>
     <span class="fas fa-times d-none"></span>
@@ -78,7 +78,7 @@ function Navbar() {
         </li>
       </ul>
      
-       <div className="button ms-lg-3">
+       <div className="button">
 
       <button class="btn btn-outline-green " type="submit">Contact Us</button>
        </div>

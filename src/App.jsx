@@ -1,17 +1,24 @@
 import Navbar from './Navbar';
 import './App.css';
+import Counter from './components/Counter';
+import Home from './components/Home';
 import Client from './components/Client';
-// import Counter from './components/Counter';
-// import Home from './components/Home';
-// import Footer from './components/Footer';
+import About from './components/About';
+
+
+import Footer from './components/Footer';
 
 
 
 function App() {
   return (
     <div>
-  <Navbar/>
+<Navbar/>
+<Home/>
+<Counter/>
+<About/>
 <Client/>
+<Footer/>
     </div>
   );
 }

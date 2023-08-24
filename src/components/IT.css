@@ -1,0 +1,27 @@
+.mi{
+    /* border: 1px solid rgba(220, 220, 220, 0.318); */
+    border: 1px solid rgba(251, 251, 251, 0.318);
+    border-radius: 15px;
+  
+
+
+}
+#it{
+    background-color: rgb(218, 243, 243);
+    padding: 25px 0px;
+}
+.mi{
+    max-width: 65%;
+    max-height: 60vh;
+  
+}
+.k{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    max-height: 65vh;
+   
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}

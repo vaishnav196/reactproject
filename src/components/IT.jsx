@@ -4,6 +4,14 @@ import "./IT.css";
 function IT() {
   return (
     <div>
+      <section className="inn">
+        <div className="container-fluid">
+          <div className="row">
+
+          <img src="img/IT.png" alt="" className="img-fluid p-0 inn" />
+          </div>
+        </div>
+      </section>
       <section id="it">
         <div className="container-lg ">
           <div className="row">
@@ -87,7 +95,7 @@ function IT() {
               HLB value is significantly important in dissolving the dirt and
               prevents its redeposition.
             </p>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <h5>Essential need for Cleaning</h5>
 
               <ol className="px-3">
@@ -113,7 +121,7 @@ function IT() {
                 </li>
               </ol>
             </div>
-            <div className="col-md-6 bg-light rounded-3 ">
+            <div className="col-lg-6 bg-light rounded-3 ">
               <img
                 src="img/surfact.png"
                 alt=""
@@ -138,6 +146,8 @@ function IT() {
             can easily be washed away.
           </p>
           <img src="img/dirt.jpg" alt=""  className="img-fluid rounded-3 "/>
+          <p>Empire Industries Limited strives to be a company that calibrates the standard of excellence and makes a positive impact on the environment and communities, it serves. EMPERIA 1900 envisions promoting public health and contributing to making a meaningful difference in the lives of individuals and communities. This has led us to work constantly to build EMPERIA 1900, enabled with “Smart Micellar Technology” in providing effective and innovative hygiene care solutions that in turn enable individuals and communities to maintain a clean and healthy living. We are guided by our principles such as a customer centric approach, passion & integrity and continuous improvement & innovation.  We have leveraged our decades of experience in research and development to create products that are safe, effective and easy to use.
+Emperia 1900 is steadfastly committed to improving and carefully formulating solutions to meet the highest standards of quality and safety.</p>
         </div>
       </section>
     </div>

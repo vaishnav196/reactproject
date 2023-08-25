@@ -7,11 +7,14 @@ function History() {
     <div className='History'>
 <section className='history' >
     <div className="container-fluid-lg p-0">
-        <div className="his">
+        <div className="his card p-0 rounded-0 ">
 
      <img src="img/history.jpg" alt=""  className='img-fluid'/>
+     <div className="card-img-overlay  h-100">
+        <h2 className='text-white d-flex  justify-content-center  align-content-center  '>History</h2>
+     </div>
         </div>
-        <div className="container">
+        <div className="container-lg">
             <div className="row">
                 <div className="col">
                     <p>Our journey began a century ago when we started as a textile production house in India. Over the years, we have grown into a diversified group with a presence in multiple industries and sectors. Empire Industries Limited, with its repertoire of businesses, has established a strong market presence in the manufacture and marketing of machine tools, industrial equipment, glass bottles, business centers, integrated industrial and residential townships, frozen foods and vending machines.</p>

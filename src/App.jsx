@@ -1,12 +1,12 @@
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import './App.css';
-import IT from './components/IT';
+// import IT from './components/IT';
 // import Counter from './components/Counter';
 // import Home from './components/Home';
 // import Client from './components/Client';
 // import About from './components/About';
 
-
+import History from './components/History';
 // import Footer from './components/Footer';
 
 
@@ -19,7 +19,8 @@ function App() {
 <About/>
 <Client/>
 <Footer/> */}
-<IT/>
+{/* <IT/> */}
+<History/>
     </div>
   );
 }

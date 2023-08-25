@@ -16,7 +16,7 @@ function IT() {
         <div className="container-lg ">
           <div className="row">
             <div className="col-md-6  k ">
-              <img
+              <img  
                 src="img/Micellar.png"
                 alt=""
                 className="img-fluid mi m-auto d-block  "

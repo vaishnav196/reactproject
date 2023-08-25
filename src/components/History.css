@@ -6,3 +6,9 @@ max-height:60%;
 height: 400px;
     width: 100vw;
 }
+ .history p{
+    font-size: 1.25rem;
+}
+.history{
+    background-color:  #d3feff;;
+}

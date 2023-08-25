@@ -30,7 +30,7 @@ function History() {
 <img src="img/emp.jpg" alt=""  className='img-fluid'/>
                 </div>
                 <div className="col">
-                We have leveraged our decades of experience in research and development to create products that are safe, effective, and easy to use. As a company with a century-long legacy, we understand the importance of responsibility towards society. That is why all our products are carefully formulated to meet the highest standards of quality and safety.
+               <p> We have leveraged our decades of experience in research and development to create products that are safe, effective, and easy to use. As a company with a century-long legacy, we understand the importance of responsibility towards society. That is why all our products are carefully formulated to meet the highest standards of quality and safety.</p>
                 </div>
             </div>
         </div>

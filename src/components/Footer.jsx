@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { LiaFacebook, LiaInstagram,LiaLinkedin,LiaYoutube,LiaTwitter } from "react-icons/lia";
 
 
 function Footer(){
@@ -57,7 +58,7 @@ function Footer(){
 
 
  {/* for small screens like mobile  */}
-                <div className="container-lg  d-md-none  d-sm-block d-lg-none">
+                <div className="container-lg  d-md-none d-sm-block d-lg-none">
                     <div className="row">
                     <div className="col-md-3 text-center ">
                             <h3>About Company</h3>
@@ -111,7 +112,11 @@ function Footer(){
                             <p>Powered by...........</p>
                         </div>
                         <div className="col-md-6 mx-auto">
-                          <span></span>
+                          {/* <span><LiaFacebook/></span>
+                          <span><LiaInstagram/></span>
+                          <span><LiaLinkedin/></span>
+                          <span><LiaYoutube/></span>
+                          <span><LiaTwitter/></span> */}
                         </div>
                     </div>
                 </div>

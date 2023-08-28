@@ -43,7 +43,7 @@ function Test() {
 
   return (
     <div className="Test">
-      <section>
+      <section id="test">
         <div className="container-lg py-5 px-5">
             <h1 className="text-center">TESTIMONIALS</h1>
           <Slider {...settings}>

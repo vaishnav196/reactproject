@@ -7,7 +7,7 @@ function About() {
 
   return (
     <div className="About">
-      <section className="about-us py-5 px-3  p-0 ">
+      <section className="about-us py-5 px-3  bg-light p-0 ">
         <div className="container-lg p-0   ">
           <div className="row flex-wrap-reverse ">
             <div className="col-lg-6 about-img px-3">

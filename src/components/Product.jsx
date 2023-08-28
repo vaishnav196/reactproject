@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-
+import './Product.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -8,12 +8,12 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Product() {
 
   const settings = {
-      infinite: false,
+      infinite: true,
       speed: 400,
       slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToScroll: 1,
       initialSlide: 0,
-      autoplay: true,
+      autoplay: false,
       responsive: [
         {
           breakpoint: 1024,
@@ -43,12 +43,22 @@ export default function Product() {
   };
 
   return (
-    <div className="Au-slick">
+  
+    <div className="bg-light Product">
       <div className="container-lg py-5 px-5">
         <h1 className="text-center mb-5"> Our Products</h1>
         <Slider {...settings}>
-          <div>
-            <img src="img/bottle1.jpeg" alt="" className="img-fluid px-3" />
+          <div className="item">
+            <img src="img/bottle1.jpeg" alt="" className="img-fluid px-3 " />
+            {/* <div className="cart">
+              <div className="wrap">
+              <p className="text-center">Emperia 1900 SS Shine 5 Litres </p>
+              <p className="text-center">Rs.999</p>
+              <button className="d-block m-auto">Add to Cart</button>
+            </div>
+             
+            
+            </div> */}
           </div>
           <div>
             <img src="img/bottle2.jpeg" alt="" className="img-fluid px-3" />

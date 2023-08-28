@@ -7,9 +7,9 @@ import Client from './components/Client';
 import About from './components/About';
 import History from './components/History';
 import Product from './components/Product';
-
+import Test from './components/Test';
 import Footer from './components/Footer';
-
+// import Core from './components/Core';
 
 
 function App() {
@@ -24,6 +24,8 @@ function App() {
 <Footer/> 
 <IT/>
 <History/>
+<Test/>
+{/* <Core/> */}
 
     </div>
   );

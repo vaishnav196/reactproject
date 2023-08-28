@@ -63,7 +63,7 @@ function Client() {
   };
   return (
     <div className="Client">
-      <section className="bg-light ">
+      <section className="bg-white ">
         <div className="container-lg">
           <div className="row">
             <div className="col-lg-4 p-lg-5">

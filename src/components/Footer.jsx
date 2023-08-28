@@ -112,11 +112,11 @@ function Footer(){
                             <p>Powered by...........</p>
                         </div>
                         <div className="col-md-6 mx-auto">
-                          {/* <span><LiaFacebook/></span>
-                          <span><LiaInstagram/></span>
-                          <span><LiaLinkedin/></span>
-                          <span><LiaYoutube/></span>
-                          <span><LiaTwitter/></span> */}
+                          <LiaFacebook fontSize={'40px'} color='#1dbfc1'/>
+                          <LiaInstagram fontSize={'40px'}  color='#1dbfc1'/>
+                          <LiaLinkedin fontSize={'40px'}  color='#1dbfc1'/>
+                          <LiaYoutube fontSize={'40px'} color='#1dbfc1'/>
+                          <LiaTwitter fontSize={'40px'}  color='#1dbfc1'/>
                         </div>
                     </div>
                 </div>

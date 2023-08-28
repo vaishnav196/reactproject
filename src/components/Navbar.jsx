@@ -86,7 +86,7 @@ function Navbar() {
     </div>
     <div className="right-nav">
 
-    <a ><BsFillBagFill fontSize={"35px"}/></a>
+    <a ><BsFillBagFill fontSize={"35px"}  color='#1dbfc1'/></a>
     </div>
   </div>
 </nav>

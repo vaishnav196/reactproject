@@ -34,7 +34,7 @@ function Home() {
                     <div className="row">
                       <div className="col-sm-6 d-flex flex-column align-align-items-end py-5 my-3 mx-3 ">
                         <h5 class="card-title">Our Vision</h5>
-                        <p class="card-text flex-wrap ">
+                        <p class="card-text flex-wrap my-4 ">
                           To promote public health and hygiene by providing
                           leading hygiene care solutions that enable individuals
                           and communities to maintain a healthy and safe

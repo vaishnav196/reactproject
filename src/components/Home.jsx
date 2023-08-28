@@ -4,10 +4,11 @@ import "./Home.css";
 
 import Client from './Client';
 
+
 // import History from './components/History';
 // import Product from './components/Product';
 import Test from './Test';
-import Footer from './Footer';
+
 // import Core from './components/Core';
 // import Distribute from './components/Distribute';
 import Product from './Product';
@@ -156,7 +157,7 @@ function Home() {
         <Product/>
         <Test/>
         <Client/>
-        <Footer/>
+       
       </div>
     );
   }

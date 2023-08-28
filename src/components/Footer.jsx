@@ -104,14 +104,32 @@ function Footer(){
                 </div>
 <hr />
 
-                <div className="container-lg ">
+                <div className="container-lg d-none d-md-block d-sm-none d-lg-block ">
                     <div className="row ">
                     
-                        <div className="col-md-6">
+                        <div className="col-md-9">
                             <p className='p-0 m-0'>Copyright © 2023 Emperia 1900</p>
                             <p>Powered by...........</p>
                         </div>
-                        <div className="col-md-6 mx-auto">
+                        <div className="col-md-3 mx-auto">
+                          <LiaFacebook fontSize={'40px'} color='#1dbfc1'/>
+                          <LiaInstagram fontSize={'40px'}  color='#1dbfc1'/>
+                          <LiaLinkedin fontSize={'40px'}  color='#1dbfc1'/>
+                          <LiaYoutube fontSize={'40px'} color='#1dbfc1'/>
+                          <LiaTwitter fontSize={'40px'}  color='#1dbfc1'/>
+                        </div>
+                    </div>
+                </div>
+
+
+                  <div className="container-lg d-none d-md-none d-sm-block d-lg-none ">
+                    <div className="row ">
+                    
+                        <div className="col-md-9">
+                            <p className='p-0 m-0 text-center'>Copyright © 2023 Emperia 1900</p>
+                            <p className='text-center'>Powered by...........</p>
+                        </div>
+                        <div className="col-md-3 mx-auto text-center">
                           <LiaFacebook fontSize={'40px'} color='#1dbfc1'/>
                           <LiaInstagram fontSize={'40px'}  color='#1dbfc1'/>
                           <LiaLinkedin fontSize={'40px'}  color='#1dbfc1'/>

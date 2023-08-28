@@ -1,33 +1,37 @@
 import Navbar from './components/Navbar';
 import './App.css';
+import Home from './components/Home'
+import Footer from './components/Footer';
+import History from './components/History';
+import Core from './components/Core';
 import IT from './components/IT';
+import Distribute from './components/Distribute';
+import {   BrowserRouter as Routes, Route, Router } from "react-router-dom";
 
-import Home from './components/Home';
-// import Client from './components/Client';
-// import About from './components/About';
-// import History from './components/History';
-// import Product from './components/Product';
-// import Test from './components/Test';
-// import Footer from './components/Footer';
-// import Core from './components/Core';
-// import Distribute from './components/Distribute';
 
 
 function App() {
   return (
     <div>
-<Navbar/>
- <Home/>
 
-{/* <About/>
-<Product/>
-<Client/>
-<Footer/> 
-<IT/>
-<History/>
-<Test/>
-<Core/>
-<Distribute/> */}
+
+<Router>
+<Navbar/>
+
+  <Routes>
+     <Route  path='/' element={< Home />}></Route>
+     <Route  path='History/' element={< History/>}></Route>
+     <Route path='Core/' element={< Core/>}></Route>
+     <Route path='Distribute/' element={<Distribute/>}></Route>
+     <Route  path='IT/' element={< IT/>}></Route>
+     <Route  path='History/' element={< History/>}></Route>
+    
+  </Routes>
+  <Footer/>
+</Router>
+
+
+
 
     </div>
   );

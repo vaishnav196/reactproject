@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import {BsFillBagFill} from 'react-icons/bs';
+import { Link } from "react-router-dom";
 
 
 
@@ -8,83 +9,83 @@ function Navbar() {
 
   return (
   
-    <div className="Navbar">
+    <div ClassNameName="Navbar">
   <header>
-    <div className="container-lg">
-      <div className="row">
-        <div className="col">
-        <nav class="navbar  navbar-expand-lg  justify-content-center ">
-  <div class="container-lg">
-    <div class="navbar-brand" href="#"><img src="img/logo.png" alt="" className="img-fluid" /></div>
-    <div class=" navbar-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="fas fa-bars " ></span>
-    <span class="fas fa-times d-none"></span>
+    <div ClassNameName="container-lg">
+      <div ClassNameName="row">
+        <div ClassNameName="col">
+        <nav ClassNameName="navbar  navbar-expand-lg  justify-content-center ">
+  <div ClassName="container-lg">
+    <div ClassName="navbar-brand" to="#"><img src="img/logo.png" alt="" ClassNameName="img-fluid" /></div>
+    <div ClassName=" navbar-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span ClassName="fas fa-bars " ></span>
+    <span ClassName="fas fa-times d-none"></span>
     
     </div>
-    <div class="collapse navbar-collapse justify-content-between " id="navbarSupportedContent">
-      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link px-3 " aria-current="page" href="#">Home</a>
+    <div ClassName="collapse navbar-collapse justify-content-between " id="navbarSupportedContent">
+      <ul ClassName="navbar-nav m-auto mb-2 mb-lg-0">
+        <li ClassName="nav-item">
+          <Link ClassName="nav-link px-3 " aria-current="page" to="/">Home</Link>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link px-3 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           About<i class="fa-solid fa-chevron-down"></i>
+        <li ClassName="nav-item dropdown">
+          <a ClassName="nav-link px-3 " to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           About<i ClassName="fa-solid fa-chevron-down"></i>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">History</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Leadership</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Core values</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Distributation</a></li>
+          <ul ClassName="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link ClassName="dropdown-item" to="/History">History</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">Leadership</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="/Core">Core values</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="/Distribute">Distributation</Link></li>
     
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Products<i class="fa-solid fa-chevron-down" ></i>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Personal care</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Bathroom Care</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Floor & Surafce Care</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">General Care</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Kitchen Care</a></li>
+        <li ClassName="nav-item dropdown">
+          <Link ClassName="nav-link px-3" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Products<i ClassName="fa-solid fa-chevron-down" ></i>
+          </Link>
+          <ul ClassName="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link ClassName="dropdown-item" to="#">Personal care</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">Bathroom Care</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">Floor & Surafce Care</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">General Care</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">Kitchen Care</Link></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" href="#" tabindex="-1" >Innovation & Technology</a>
+        <li ClassName="nav-item">
+          <Link ClassName="nav-link px-3" to="#" tabindex="-1" >Innovation & Technology</Link>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link px-3 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Media<i class="fa-solid fa-chevron-down" ></i>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Facebook</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Instagram</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Linkdin</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Twitter</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Youtube</a></li>
+        <li ClassName="nav-item dropdown">
+          <Link ClassName="nav-link px-3 " to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Media<i ClassName="fa-solid fa-chevron-down" ></i>
+          </Link>
+          <ul ClassName="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link ClassName="dropdown-item" to="/">Facebook</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="#">Instagram</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="/">Linkdin</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="/">Twitter</Link></li>
+            <li><hr ClassName="dropdown-divider"/></li>
+            <li><Link ClassName="dropdown-item" to="/">Youtube</Link></li>
           </ul>
         </li>
       </ul>
      
-       <div className="button">
+       <div ClassNameName="button">
 
-      <button class="btn btn-outline-green " type="submit">Contact Us</button>
+      <button ClassName="btn btn-outline-green " type="submit">Contact Us</button>
        </div>
       
     </div>
-    <div className="right-nav">
+    <div ClassNameName="right-nav">
 
     <a ><BsFillBagFill fontSize={"35px"}  color='#1dbfc1'/></a>
     </div>

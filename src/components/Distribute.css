@@ -9,6 +9,9 @@
      .history p{
         font-size: 1.25rem;
     }
-    .dis{
-        background-color:  #d3feff;;
+    .Distribute{
+        background-color:#effafa;
+    }
+    ul li b{
+        color: blue;
     }

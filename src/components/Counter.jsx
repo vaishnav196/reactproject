@@ -15,20 +15,20 @@ function Counter() {
         <div className="row px-md-5 py-5 text-center">
             <div className="col-md-3 col-sm-6 col-6">
                 <h2>No of Cities</h2>
-             <h1 className='mx-5 fw-bolder '><CountUp start={0}  end={53}  />+</h1>
+             <h1 className='mx-5 fw-bolder '><CountUp start={0}  end={53}  duration={20} />+</h1>
               
             </div>
             <div className="col-md-3 col-sm-6 col-6">
             <h2>No of Cities</h2>
-                <h1 className='mx-5 fw-bolder'><CountUp  start={0}  end={50} />+</h1>
+                <h1 className='mx-5 fw-bolder'><CountUp  start={0}  end={50}  duration={20}/>+</h1>
             </div>
             <div className="col-md-3 col-sm-6 col-6">
             <h2>No of Cities</h2>
-            <h1 className='mx-5 fw-bolder'><CountUp   end={100} />+</h1>
+            <h1 className='mx-5 fw-bolder'><CountUp   end={100}  duration={10} />+</h1>
             </div>
             <div className="col-md-3 col-sm-6 col-6">
             <h2>No of Cities</h2>
-            <h1 className='mx-5 fw-bolder'><CountUp   end={100} />+</h1>
+            <h1 className='mx-5 fw-bolder'><CountUp   end={100}  duration={10} />+</h1>
             </div>
         </div>
     </div>

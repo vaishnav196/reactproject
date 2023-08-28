@@ -1,7 +1,10 @@
 import React from "react";
 import "./About.css";
 
+
 function About() {
+ 
+
   return (
     <div className="About">
       <section className="about-us py-5 px-3  p-0 ">
@@ -32,7 +35,6 @@ function About() {
           </div>
         </div>
       </section>
-
       
     </div>
   );

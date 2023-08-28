@@ -9,7 +9,8 @@ import History from './components/History';
 import Product from './components/Product';
 import Test from './components/Test';
 import Footer from './components/Footer';
-// import Core from './components/Core';
+import Core from './components/Core';
+import Distribute from './components/Distribute';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
 <IT/>
 <History/>
 <Test/>
-{/* <Core/> */}
+<Core/>
+<Distribute/>
 
     </div>
   );

@@ -44,20 +44,20 @@ function Test() {
   return (
     <div className="Test">
       <section>
-        <div className="container-lg">
+        <div className="container-lg py-5 px-5">
             <h1 className="text-center">TESTIMONIALS</h1>
           <Slider {...settings}>
-            <div className="test pt-3">
+            <div className="test ">
               <img src="img/im1.jpg" alt="" className="img-fluid w-25 " />
               <h5 className="pt-3 text-white">Pushpa joshi</h5>
               <p className=" text-center">Admin Executive, Rockwell Automation India Private Ltd</p>
             </div>
-            <div className="test pt-3">
+            <div className="test ">
               <img src="img/im2.jpg" alt=""  className="img-fluid w-25"/>
               <h5 className="pt-3 text-white">Pushpa joshi</h5>
               <p className=" text-center">Admin Executive, Rockwell Automation India Private Ltd</p>
             </div>
-            <div className="test pt-3">
+            <div className="test">
               <img src="img/im3.jpg" alt=""  className="img-fluid w-25"/>
               <h5 className="pt-3 text-white">Pushpa joshi</h5>
               <p className=" text-center">Admin Executive, Rockwell Automation India Private Ltd</p>

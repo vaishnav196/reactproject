@@ -82,7 +82,7 @@ function Client() {
           </div>
         </div>
       </section>
-      <section className="  py-5 px-5   ">
+      <section className="  py-5 px-5  c ">
         <div className="container-lg">
           <div className="row">
             <div className="-12">

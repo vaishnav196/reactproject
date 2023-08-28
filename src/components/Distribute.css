@@ -1,0 +1,14 @@
+.dis{
+    max-height:60%;
+        width: 100%;
+    }
+    .dis img{
+    height: 500px;
+        width: 100vw;
+    }
+     .history p{
+        font-size: 1.25rem;
+    }
+    .dis{
+        background-color:  #d3feff;;
+    }

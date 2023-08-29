@@ -1,12 +1,14 @@
-import Navbar from './components/Navbar';
-import './App.css';
-import Home from './components/Home'
-import Footer from './components/Footer';
-import History from './components/History';
-import Core from './components/Core';
-import IT from './components/IT';
-import Distribute from './components/Distribute';
-import {   BrowserRouter as Routes, Route, Router } from "react-router-dom";
+// import Navbar from './components/Navbar';
+// import './App.css';
+// import Home from './components/Home'
+// import Footer from './components/Footer';
+// import History from './components/History';
+// import Core from './components/Core';
+// import IT from './components/IT';
+// import Distribute from './components/Distribute';
+// import {   BrowserRouter as Routes, Route, Router } from "react-router-dom";
+
+import Leader from "./components/Leader";
 
 
 
@@ -15,7 +17,7 @@ function App() {
     <div>
 
 
-<Router>
+{/* <Router>
 <Navbar/>
 
   <Routes>
@@ -28,7 +30,8 @@ function App() {
     
   </Routes>
   <Footer/>
-</Router>
+</Router> */}
+l<Leader/>
 
 
 

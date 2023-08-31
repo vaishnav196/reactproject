@@ -141,7 +141,7 @@ function Navbar() {
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link px-3" href="#" tabindex="-1">
+                        <a class="nav-link px-2" href="#" tabindex="-1">
                           Innovation & Technology
                         </a>
                       </li>
@@ -209,7 +209,7 @@ function Navbar() {
                   </div>
                   <div class="right-nav">
                     <a>
-                      <BsFillBagFill fontSize={"35px"} color="#1dbfc1" />
+                      <BsFillBagFill   fontSize={"35px"} color="#1dbfc1 "/>
                     </a>
                   </div>
                 </div>

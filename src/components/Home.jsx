@@ -22,7 +22,7 @@ function Home() {
   {
     return (
       <div>
-        <section className="">
+        <section className="home">
           <div className="container-fluid-lg d-none d-sm-none d-md-block d-lg-block">
             <div
               id="carouselExampleAutoplaying"

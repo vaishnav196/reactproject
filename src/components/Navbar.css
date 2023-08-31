@@ -36,7 +36,7 @@ header{
     background-color: rgb(255, 255, 255);
     
 }
-.collapse ul li a{
+.nav-item{
     font-weight: bolder;
 }
 .fa-solid{
@@ -64,7 +64,7 @@ header{
 }
 .dropdown:hover .dropdown-menu{
     position: absolute;
-    top: 40px;
+    top: 50px;
     display: block;
 }
 

@@ -12,7 +12,7 @@ function Navbar() {
             <div class="col">
               <nav class="navbar navbar-expand-lg  justify-content-center ">
                 <div class="container-lg">
-                  <div class="navbar-brand" href="/">
+                  <div class="navbar-brand" to="/">
                     <img src="img/logo.png" alt="" class="img-fluid" />
                   </div>
                   <div
@@ -36,7 +36,7 @@ function Navbar() {
                         <Link
                           class="nav-link px-3 "
                           aria-current="page"
-                          href="/"
+                          to="/"
                         >
                           Home
                         </Link>
@@ -44,7 +44,7 @@ function Navbar() {
                       <li class="nav-item dropdown">
                         <Link
                           class="nav-link px-3 "
-                          href="/"
+                          to="/"
                           id="navbarDropdown"
                           role="button"
                           data-bs-toggle="dropdown"
@@ -57,7 +57,7 @@ function Navbar() {
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <Link class="dropdown-item" href="History">
+                            <Link class="dropdown-item" to="History">
                               History
                             </Link>
                           </li>
@@ -65,7 +65,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="">
+                            <Link class="dropdown-item" to="Leader">
                               Leadership
                             </Link>
                           </li>
@@ -73,7 +73,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="Core">
+                            <Link class="dropdown-item" to="Core">
                               Core values
                             </Link>
                           </li>
@@ -81,7 +81,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="Distribute">
+                            <Link class="dropdown-item" to="Distribute">
                               Distributation
                             </Link>
                           </li>
@@ -90,7 +90,7 @@ function Navbar() {
                       <li class="nav-item dropdown">
                         <Link
                           class="nav-link px-3"
-                          href="/"
+                          to="/"
                           id="navbarDropdown"
                           role="button"
                           data-bs-toggle="dropdown"
@@ -103,7 +103,7 @@ function Navbar() {
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               Personal care
                             </Link>
                           </li>
@@ -111,7 +111,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               Bathroom Care
                             </Link>
                           </li>
@@ -119,7 +119,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               Floor & Surafce Care
                             </Link>
                           </li>
@@ -127,7 +127,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               General Care
                             </Link>
                           </li>
@@ -135,21 +135,21 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               Kitchen Care
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <Link class="nav-link px-2" href="#" tabindex="-1">
+                        <Link class="nav-link px-2" to="IT" tabindex="-1">
                           Innovation & Technology
                         </Link>
                       </li>
                       <li class="nav-item dropdown">
                         <Link
                           class="nav-link px-3 "
-                          href="#"
+                          to="#"
                           id="navbarDropdown"
                           role="button"
                           data-bs-toggle="dropdown"
@@ -162,7 +162,7 @@ function Navbar() {
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <Link class="dropdown-item" href="/">
+                            <Link class="dropdown-item" to="/">
                               Facebook
                             </Link>
                           </li>
@@ -170,7 +170,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="#">
+                            <Link class="dropdown-item" to="#">
                               Instagram
                             </Link>
                           </li>
@@ -178,7 +178,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="/">
+                            <Link class="dropdown-item" to="/">
                               Linkdin
                             </Link>
                           </li>
@@ -186,7 +186,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="/">
+                            <Link class="dropdown-item" to="/">
                               Twitter
                             </Link>
                           </li>
@@ -194,7 +194,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" href="/">
+                            <Link class="dropdown-item" to="/">
                               Youtube
                             </Link>
                           </li>

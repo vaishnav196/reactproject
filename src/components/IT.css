@@ -24,5 +24,9 @@
 }
 p{
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+ol li{
+    font-size: 1.19rem;
+   
 }

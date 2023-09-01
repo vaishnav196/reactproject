@@ -6,9 +6,12 @@ function IT() {
     <div>
       <section className="inn">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row card rounded-0 ">
 
-          <img src="img/IT.png" alt="" className="img-fluid p-0 inn" />
+          <img src="img/IT.png" alt="" className="img-fluid p-0 inn " />
+          <div className="card-img-overlay">
+            <h1 className="d-flex justify-content-center ">INNOVATION</h1>
+          </div>
           </div>
         </div>
       </section>
@@ -121,11 +124,11 @@ function IT() {
                 </li>
               </ol>
             </div>
-            <div className="col-lg-6 bg-light rounded-3 ">
+            <div className="col-lg-6 bg-light rounded-3">
               <img
                 src="img/surfact.png"
                 alt=""
-                className="img-fluid m-auto d-block p-4"
+                className="img-fluid m-auto d-block p-2 w-75"
               />
             </div>
           </div>

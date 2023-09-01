@@ -7,8 +7,9 @@ import History from "./components/History";
 import Core from "./components/Core";
 import IT from "./components/IT";
 import Distribute from "./components/Distribute";
+import Leader from "./components/Leader";
 
-import { BrowserRouter as Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 // import Leader from "./components/Leader";
 
 function App() {
@@ -18,11 +19,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/History" element={<History />} />
-          <Route path="/Core" element={<Core />} />
-          <Route path="/IT" element={<IT />} />
-          <Route path="/Distribute" element={<Distribute />} />
-          <Route path="/Leader" element={<IT />} />
+          <Route path="History/" element={<History />} />
+          <Route path="Core/" element={<Core />} />
+          <Route path="IT/" element={<IT />} />
+          <Route path="Distribute/" element={<Distribute />} />
+          <Route path="Leader/" element={<Leader />} />
         </Routes>
         <Footer />
       </Router>

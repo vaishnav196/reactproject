@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { BsFillBagFill } from "react-icons/bs";
+import {Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -32,16 +33,16 @@ function Navbar() {
                   >
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a
+                        <Link
                           class="nav-link px-3 "
                           aria-current="page"
                           href="/"
                         >
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li class="nav-item dropdown">
-                        <a
+                        <Link
                           class="nav-link px-3 "
                           href="/"
                           id="navbarDropdown"
@@ -50,44 +51,44 @@ function Navbar() {
                           aria-expanded="false"
                         >
                           About<i class="fa-solid fa-chevron-down"></i>
-                        </a>
+                        </Link>
                         <ul
                           class="dropdown-menu"
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <a class="dropdown-item" href="History">
+                            <Link class="dropdown-item" href="History">
                               History
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="">
+                            <Link class="dropdown-item" href="">
                               Leadership
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="Core">
+                            <Link class="dropdown-item" href="Core">
                               Core values
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="Distribute">
+                            <Link class="dropdown-item" href="Distribute">
                               Distributation
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
-                        <a
+                        <Link
                           class="nav-link px-3"
                           href="/"
                           id="navbarDropdown"
@@ -96,57 +97,57 @@ function Navbar() {
                           aria-expanded="false"
                         >
                           Products<i class="fa-solid fa-chevron-down"></i>
-                        </a>
+                        </Link>
                         <ul
                           class="dropdown-menu"
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               Personal care
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               Bathroom Care
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               Floor & Surafce Care
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               General Care
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               Kitchen Care
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link px-2" href="#" tabindex="-1">
+                        <Link class="nav-link px-2" href="#" tabindex="-1">
                           Innovation & Technology
-                        </a>
+                        </Link>
                       </li>
                       <li class="nav-item dropdown">
-                        <a
+                        <Link
                           class="nav-link px-3 "
                           href="#"
                           id="navbarDropdown"
@@ -155,47 +156,47 @@ function Navbar() {
                           aria-expanded="false"
                         >
                           Media<i class="fa-solid fa-chevron-down"></i>
-                        </a>
+                        </Link>
                         <ul
                           class="dropdown-menu"
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <a class="dropdown-item" href="/">
+                            <Link class="dropdown-item" href="/">
                               Facebook
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">
+                            <Link class="dropdown-item" href="#">
                               Instagram
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="/">
+                            <Link class="dropdown-item" href="/">
                               Linkdin
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="/">
+                            <Link class="dropdown-item" href="/">
                               Twitter
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <a class="dropdown-item" href="/">
+                            <Link class="dropdown-item" href="/">
                               Youtube
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -208,9 +209,9 @@ function Navbar() {
                     </div>
                   </div>
                   <div class="right-nav">
-                    <a>
+                    <Link>
                       <BsFillBagFill   fontSize={"35px"} color="#1dbfc1 "/>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </nav>

@@ -86,7 +86,7 @@ function Client() {
         <div className="container-lg">
           <div className="row">
             <div className="-12">
-              <h2 className="text-center"> Our Clients</h2>
+              <h2 className="text-center text-black"> Our Clients</h2>
               <Slider {...settings}>
                 <div className=" py-5 ">
                   <img src="img/c1.jpg" alt="" className="px-3" />

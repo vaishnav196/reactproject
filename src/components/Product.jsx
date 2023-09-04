@@ -152,10 +152,15 @@ export default function Product() {
 
 
 
+          <div class="box">
+  <img src="img/bottle1.jpeg" alt="Avatar" class="image"/>
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
 
 
 
-          
         </Slider>
       </div>
     </div>

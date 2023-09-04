@@ -42,7 +42,7 @@ export default function Product() {
 
   return (
     <div className="bg-light Product">
-      <div className="container-lg py-5 px-5">
+      <div className="container-lg py-5 px-5 product">
         <h1 className="text-center mb-5"> Our Products</h1>
         <Slider {...settings}>
           <div className="item   rounded-0 ">

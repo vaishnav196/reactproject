@@ -1,0 +1,14 @@
+.cart{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+.item{
+    position: relative;
+margin-right: 20px;
+}
+.wrap{
+  background-color: rgba(0, 0, 0, 0.286);
+    bottom: 0;
+    right: 0;
+    left: 0; 
+}

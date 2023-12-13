@@ -11,6 +11,7 @@ import Leader from "./components/Leader";
 
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Personalcare from "./components/Products/Personalcare";
+import Contact from "./components/Contact";
 // import Leader from "./components/Leader";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="Distribute/" element={<Distribute />} />
           <Route path="Leader/" element={<Leader />} />
           <Route path="Personalcare/" element={<Personalcare/>} />
+          <Route path="Contact/" element={<Contact/>} />
         </Routes>
         <Footer />
       </Router>

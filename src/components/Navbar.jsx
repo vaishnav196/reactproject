@@ -203,9 +203,9 @@ function Navbar() {
                     </ul>
 
                     <div class="button">
-                      <button class="btn btn-outline-green " type="submit">
+                      <Link class="btn btn-outline-green " to="Contact" type="submit">
                         Contact Us
-                      </button>
+                      </Link>
                     </div>
                   </div>
                   <div class="right-nav">

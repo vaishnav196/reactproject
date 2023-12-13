@@ -10,6 +10,7 @@ import Distribute from "./components/Distribute";
 import Leader from "./components/Leader";
 
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
+import Personalcare from "./components/Products/Personalcare";
 // import Leader from "./components/Leader";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="IT/" element={<IT />} />
           <Route path="Distribute/" element={<Distribute />} />
           <Route path="Leader/" element={<Leader />} />
+          <Route path="Personalcare/" element={<Personalcare/>} />
         </Routes>
         <Footer />
       </Router>

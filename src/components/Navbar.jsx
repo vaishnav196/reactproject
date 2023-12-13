@@ -103,7 +103,7 @@ function Navbar() {
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <Link class="dropdown-item" to="#">
+                            <Link class="dropdown-item" to="Personalcare">
                               Personal care
                             </Link>
                           </li>

@@ -18,7 +18,12 @@ export default function Contact() {
     <h5>Bengaluru</h5>|
 </div>
 <hr />
- <h6 className='font-monspace'>CALL US</h6>
+ <h6 className=''>CALL US</h6>
+ <h6>1800 209 2526</h6>
+ <hr />
+
+ <h6>EMAIL US</h6>
+ <h6>care@grabbitempire.com</h6>
 
             </div>
             <div className="col-md-6">

@@ -16,6 +16,7 @@ import Bathroomcare from "./components/Bathroomcare";
 import Floorsurface from "./components/Floorsurface";
 import Kitchencare from "./components/Kitchencare";
 import Generalcare from "./components/Generalcare";
+import Productdetails from "./components/Productdetails";
 
 
 // import Leader from "./components/Leader";
@@ -38,6 +39,7 @@ function App() {
           <Route path="Kitchencare/" element={<Kitchencare/>} />
           <Route path="Floorsurface/" element={<Floorsurface/>} />
           <Route path="Bathroomcare/" element={<Bathroomcare/>} />
+          <Route path="Productdetails/" element={<Productdetails/>} />
        
         </Routes>
         <Footer />

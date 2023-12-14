@@ -28,6 +28,11 @@ function App() {
           <Route path="Leader/" element={<Leader />} />
           <Route path="Personalcare/" element={<Personalcare/>} />
           <Route path="Contact/" element={<Contact/>} />
+          <Route path="Generalcare/" element={<Contact/>} />
+          <Route path="Kitchencare/" element={<Contact/>} />
+          <Route path="Floorsurface/" element={<Contact/>} />
+          <Route path="Bathroomcare/" element={<Bathroomcare/>} />
+          <Route path="Contact/" element={<Contact/>} />
         </Routes>
         <Footer />
       </Router>

@@ -17,7 +17,7 @@ export default function Personalcare() {
                  Rs 999.000
                 </h6>
                 <a href="#" class="btn btn-primary">
-                  Go somewhere
+                  Add to cart
                 </a>
               </div>
             </div>

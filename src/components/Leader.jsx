@@ -7,8 +7,8 @@ function Leader() {
         <div className="container-fluid-lg p-0 pt-0">
           <div className=" card p-0 rounded-0 ">
             <img src="img/leader.jpg" alt="" className="img-fluid" />
-            <div className="card-img-overlay">
-              <h2 className="text-black d-flex  justify-content-center  ">
+            <div className="card-img-overlay d-flex   justify-content-center align-items-center">
+              <h2 className="text-black   ">
                 LeaderShip
               </h2>
             </div>

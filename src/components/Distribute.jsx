@@ -8,8 +8,8 @@ function Distribute() {
         <div className="container-fluid-lg p-0">
           <div className="dis card p-0 rounded-0 ">
             <img src="img/history.jpg" alt="" className="img-fluid" />
-            <div className="card-img-overlay  h-100">
-              <h2 className="text-white d-flex  justify-content-center  ">
+            <div className="card-img-overlay d-flex   justify-content-center align-items-center h-100">
+              <h2 className="text-white  ">
                 Manufacturing And Distribution
               </h2>
             </div>

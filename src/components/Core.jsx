@@ -8,9 +8,9 @@ function Core() {
         <div className="container-fluid card p-0">
           <div className=" core">
             <img src="img/core.png" alt="" className="img-fluid" />
-            <div className="card-img-overlay">
+            <div className="card-img-overlay d-flex   justify-content-center align-items-center">
               <h1
-                className="d-flex justify-content-center "
+                className=" "
                 style={{ color: "white", height: "50vh" }}
               >
                 <b>Core</b>

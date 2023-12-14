@@ -9,8 +9,8 @@ function IT() {
           <div className="row card rounded-0 ">
 
           <img src="img/IT.png" alt="" className="img-fluid p-0 inn " />
-          <div className="card-img-overlay">
-            <h1 className="d-flex justify-content-center ">INNOVATION</h1>
+          <div className="card-img-overlay d-flex   justify-content-center align-items-center ">
+            <h1 className="  text-white mt-5 ">INNOVATION</h1>
           </div>
           </div>
         </div>

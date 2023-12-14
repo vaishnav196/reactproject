@@ -12,6 +12,12 @@ import Leader from "./components/Leader";
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Personalcare from "./components/Products/Personalcare";
 import Contact from "./components/Contact";
+import Bathroomcare from "./components/Bathroomcare";
+import Floorsurface from "./components/Floorsurface";
+import Kitchencare from "./components/Kitchencare";
+import Generalcare from "./components/Generalcare";
+
+
 // import Leader from "./components/Leader";
 
 function App() {
@@ -28,11 +34,11 @@ function App() {
           <Route path="Leader/" element={<Leader />} />
           <Route path="Personalcare/" element={<Personalcare/>} />
           <Route path="Contact/" element={<Contact/>} />
-          <Route path="Generalcare/" element={<Contact/>} />
-          <Route path="Kitchencare/" element={<Contact/>} />
-          <Route path="Floorsurface/" element={<Contact/>} />
+          <Route path="Generalcare/" element={<Generalcare/>} />
+          <Route path="Kitchencare/" element={<Kitchencare/>} />
+          <Route path="Floorsurface/" element={<Floorsurface/>} />
           <Route path="Bathroomcare/" element={<Bathroomcare/>} />
-          <Route path="Contact/" element={<Contact/>} />
+       
         </Routes>
         <Footer />
       </Router>

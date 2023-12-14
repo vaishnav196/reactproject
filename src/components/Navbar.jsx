@@ -111,7 +111,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" to="#">
+                            <Link class="dropdown-item" to="Bathroomcare">
                               Bathroom Care
                             </Link>
                           </li>
@@ -119,7 +119,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" to="#">
+                            <Link class="dropdown-item" to="Floorsurface">
                               Floor & Surafce Care
                             </Link>
                           </li>
@@ -127,7 +127,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" to="#">
+                            <Link class="dropdown-item" to="Generalcare">
                               General Care
                             </Link>
                           </li>
@@ -135,7 +135,7 @@ function Navbar() {
                             <hr class="dropdown-divider" />
                           </li>
                           <li>
-                            <Link class="dropdown-item" to="#">
+                            <Link class="dropdown-item" to="Kitchencare">
                               Kitchen Care
                             </Link>
                           </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { BsFillBagFill } from "react-icons/bs";
+import { FaShoppingCart } from "react-icons/fa";
 import {Link } from "react-router-dom";
 
 function Navbar() {
@@ -210,7 +210,7 @@ function Navbar() {
                   </div>
                   <div class="right-nav">
                     <Link>
-                      <BsFillBagFill   fontSize={"35px"} color="#1dbfc1 "/>
+                      <FaShoppingCart   className="ms-3" fontSize={"35px"} color="#1dbfc1 "/>
                     </Link>
                   </div>
                 </div>

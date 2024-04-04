@@ -12,7 +12,7 @@ import Leader from "./components/Leader";
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Personalcare from "./components/Products/Personalcare";
 import Contact from "./components/Contact";
-import Bathroomcare from "./components/Bathroomcare";
+import Bathroomcare from "./components/Products/Bathroomcare";
 import Floorsurface from "./components/Floorsurface";
 import Kitchencare from "./components/Kitchencare";
 import Generalcare from "./components/Generalcare";

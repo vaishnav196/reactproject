@@ -7,12 +7,12 @@ import Client from './Client';
 
 // import History from './components/History';
 // import Product from './components/Product';
-import Test from './Test';
+import Test from './Home/Testimonails/Test';
+import Counter from "./Home/Counter/Counter";
+import OurProduct from "./Home/OurProducts/OurProduct";
 
 // import Core from './components/Core';
 // import Distribute from './components/Distribute';
-import Product from './Product';
-import Counter from './Counter';
 
 
 
@@ -154,7 +154,7 @@ function Home() {
         </section>
         <Counter/>
         <About/>
-        <Product/>
+        <OurProduct/>
         <Test/>
         <Client/>
        

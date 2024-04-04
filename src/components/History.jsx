@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 import React from 'react';
 import './History.css'
 

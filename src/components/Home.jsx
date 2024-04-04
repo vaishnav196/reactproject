@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
- import About from './About';
+ import About from './AboutUs/About';
 
 import Client from './Client';
 

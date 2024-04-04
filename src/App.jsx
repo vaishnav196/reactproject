@@ -1,21 +1,21 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import History from "./components/History";
 import Core from "./components/Core";
 import IT from "./components/IT";
-import Distribute from "./components/Distribute";
+import Distribute from "./components/Products/Distribute";
 import Leader from "./components/Leader";
 
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Personalcare from "./components/Products/Personalcare";
-import Contact from "./components/Contact";
+import Contact from "./components/ContactUs/Contact";
 import Bathroomcare from "./components/Products/Bathroomcare";
-import Floorsurface from "./components/Floorsurface";
+import Floorsurface from "./components/Products/Floorsurface";
 import Kitchencare from "./components/Kitchencare";
-import Generalcare from "./components/Generalcare";
+import Generalcare from "./components/Products/Generalcare";
 import Productdetails from "./components/Productdetails";
 
 

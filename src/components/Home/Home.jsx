@@ -7,9 +7,9 @@ import Client from './Client';
 
 // import History from './components/History';
 // import Product from './components/Product';
-import Test from './Home/Testimonails/Test';
-import Counter from "./Home/Counter/Counter";
-import OurProduct from "./Home/OurProducts/OurProduct";
+import Test from './Testimonails/Test';
+import Counter from "./Counter/Counter";
+import OurProduct from "./OurProducts/OurProduct";
 
 // import Core from './components/Core';
 // import Distribute from './components/Distribute';

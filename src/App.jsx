@@ -1,25 +1,25 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
-import Home from "./components/Home";
+import Home from "./components/Home/Home.jsx";
 import Footer from "./components/Footer/Footer";
-import History from "./components/History";
-import Core from "./components/Core";
-import IT from "./components/IT";
-import Distribute from "./components/Products/Distribute";
-import Leader from "./components/Leader";
+import History from "./components/About/History/History.jsx";
+import Core from "./components/About/CoreValues/Core.jsx";
+import IT from "./components/Innovation/IT.jsx";
+
+import Leader from "./components/About/LeaderShip/Leader.jsx";
 
 import { BrowserRouter as  Router,Routes, Route } from "react-router-dom";
 import Personalcare from "./components/Products/Personalcare";
 import Contact from "./components/ContactUs/Contact";
 import Bathroomcare from "./components/Products/Bathroomcare";
 import Floorsurface from "./components/Products/Floorsurface";
-import Kitchencare from "./components/Kitchencare";
+import Kitchencare from "./components/Products/Kitchencare.jsx";
 import Generalcare from "./components/Products/Generalcare";
 import Productdetails from "./components/Productdetails";
 
+import Distribute  from './components/About/Distribute/Distribute.jsx'
 
-// import Leader from "./components/Leader";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path="History/" element={<History />} />
           <Route path="Core/" element={<Core />} />
           <Route path="IT/" element={<IT />} />
-          <Route path="Distribute/" element={<Distribute />} />
+          <Route path="Distribute/" element={<Distribute/>} />
           <Route path="Leader/" element={<Leader />} />
           <Route path="Personalcare/" element={<Personalcare/>} />
           <Route path="Contact/" element={<Contact/>} />

@@ -1,29 +1,16 @@
-import React from "react";
-import "./Home.css";
- import About from './AboutUs/About';
-
-import Client from './Client';
-
-
-// import History from './components/History';
-// import Product from './components/Product';
-import Test from './Testimonails/Test';
-import Counter from "./Counter/Counter";
-import OurProduct from "./OurProducts/OurProduct";
-
-// import Core from './components/Core';
-// import Distribute from './components/Distribute';
-
-
-
-
+import React from 'react'
+ import Counter from './Counter/Counter.jsx'
+ import About from './AboutUs/About.jsx'
+ import OurProduct from './OurProducts/OurProduct.jsx'
+ import Test from './Testimonails/Test.jsx'
+ import Client from './Clients/Client.jsx'
+ 
 
 function Home() {
-  {
-    return (
-      <div>
-        <section className="home">
-          <div className="container-fluid-lg d-none d-sm-none d-md-block d-lg-block">
+  return (
+    <div>
+       <section className="home">
+          <div className="container-fluid d-none d-sm-none d-md-block d-lg-block">
             <div
               id="carouselExampleAutoplaying"
               class="carousel slide carousel-fade "
@@ -152,14 +139,14 @@ function Home() {
             </div>
           </div>
         </section>
-        <Counter/>
+       <Counter/>
         <About/>
         <OurProduct/>
         <Test/>
-        <Client/>
+       <Client/>
        
-      </div>
-    );
-  }
+    </div>
+  )
 }
-export default Home;
+
+export default Home

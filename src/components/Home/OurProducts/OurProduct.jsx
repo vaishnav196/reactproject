@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "./Ourproduct.css";
+import "./OurProduct.css";
 import { Link } from "react-router-dom";
 
 export default class OurProduct extends Component {
   render() {
     const settings = {
-      dots: true,
+      // dots: true,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       speed: 1000,
       autoplaySpeed: 3000,
       cssEase: "linear",
@@ -39,15 +39,15 @@ export default class OurProduct extends Component {
       ],
     };
     return (
-      <div className="product-bg p-4">
+      <div className="product-bg  ">
         <center className="text-uppercase fs-4 fw-semibold mb-4">
           Our Products
         </center>
         <div className="container p-3">
-          <Slider {...settings}>
+          <Slider {...settings} className="ms-5">
             <div className="img-wrapper ">
               <img
-                src="images/our_product_img1.jpeg"
+                src="img/bottle4.jpeg"
                 className="img-fluid p-2"
                 alt=""
               />
@@ -66,7 +66,7 @@ export default class OurProduct extends Component {
 
             <div className="img-wrapper">
               <img
-                src="images/our_product_img2.jpg"
+                src="img/bottle3.jpeg"
                 className="img-fluid p-2"
                 alt=""
               />
@@ -85,7 +85,7 @@ export default class OurProduct extends Component {
 
             <div className="img-wrapper">
               <img
-                src="images/our_product_img3.jpg"
+                src="img/bottle2.jpeg"
                 className="img-fluid p-2"
                 alt=""
               />
@@ -104,13 +104,13 @@ export default class OurProduct extends Component {
 
             <div className="img-wrapper">
               <img
-                src="images/our_product_img4.jpg"
+                src="img/bottle1.jpeg"
                 className="img-fluid p-2"
                 alt=""
               />
               <div className="content m-2 slide-up">
                 <p className="text-capitalize mb-1">
-                  Emperia 1900 Vol 9 shine & descaler 5 liters
+                  Emperia 1900 shine & descaler 5 liters
                 </p>
                 <p className="mb-1">
                   <i class="fa-solid fa-indian-rupee-sign me-2"></i>1499.00
@@ -167,7 +167,7 @@ export default class OurProduct extends Component {
               />
               <div className="content m-2 slide-up">
                 <p className="text-capitalize mb-1">
-                Emperia 1900  k-pro machine rinse 5 liters
+                Emperia 1900 k-pro machine rinse 5 liters
                 </p>
                 <p className="mb-1">
                   <i class="fa-solid fa-indian-rupee-sign me-2"></i>4999.00
@@ -186,7 +186,7 @@ export default class OurProduct extends Component {
               />
               <div className="content m-2 slide-up">
                 <p className="text-capitalize mb-1">
-                  Emperia 1900 Vol 5 air freshener blossom 5 liters
+                  Emperia1900 Vol 5 air freshener blossom 5 liters
                 </p>
                 <p className="mb-1">
                   <i class="fa-solid fa-indian-rupee-sign me-2"></i>1499.00

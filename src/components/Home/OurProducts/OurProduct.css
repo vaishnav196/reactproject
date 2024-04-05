@@ -42,11 +42,11 @@
 
 
  .img-wrapper .content.slide-up{
-    transform: translateY(190%);
+    transform: translateY(180%);
 }
 
 .img-wrapper:hover .content.slide-up{
-    transform: translateY(90%);
+    transform: translateY(60%);
 }
 
 @media screen and (max-width : 1475px) {

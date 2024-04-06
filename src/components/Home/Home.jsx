@@ -4,32 +4,32 @@ import React from 'react'
  import OurProduct from './OurProducts/OurProduct.jsx'
  import Test from './Testimonails/Test.jsx'
  import Client from './Clients/Client.jsx'
- 
+import './Home.css' ;
 
 function Home() {
   return (
     <div>
        <section className="home">
-          <div className="container-fluid d-none d-sm-none d-md-block d-lg-block">
+          <div className="container-fluid d-none d-sm-none d-flex  d-md-block d-lg-block">
             <div
               id="carouselExampleAutoplaying"
-              class="carousel slide carousel-fade "
+              className="carousel slide carousel-fade  "
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner">
+              <div className="carousel-inner">
                 <div class="card-img-overlay">
                   <div className="container-lg">
                     <div className="row">
                       <div className="col-sm-6 d-flex flex-column align-align-items-end py-5 my-3 mx-3 ">
-                        <h5 class="card-title">Our Vision</h5>
-                        <p class="card-text flex-wrap my-4 ">
+                        <h5 class="card-title z-3  ">Our Vision</h5>
+                        <p class="card-text flex-wrap my-4 z-3 ">
                           To promote public health and hygiene by providing
                           leading hygiene care solutions that enable individuals
                           and communities to maintain a healthy and safe
                           environment.
                         </p>
                         <div className="button">
-                          <button className="  px-3 py-2 btn-outline-green">
+                          <button className=" z-3  px-3 py-2 btn-outline-green">
                             Read More
                           </button>
                         </div>
@@ -38,14 +38,14 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item active">
+                <div className="carousel-item active px-0">
                   <img
                     src="img/hero1.png"
-                    class="d-block w-100 img-fluid "
+                    className="d-block w-100 img-fluid "
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
                     src="img/h1.png"
                     class="d-block w-100 img-fluid "
@@ -54,7 +54,7 @@ function Home() {
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev"
